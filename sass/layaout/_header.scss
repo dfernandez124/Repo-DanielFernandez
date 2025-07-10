@@ -1,0 +1,38 @@
+/* Header para móvil */
+.index-Header {
+  @extend %flexColumn;
+  background-color: variables.$backgroundColor;
+  padding: 1rem;
+  text-align: center;
+}
+
+.Logotipo {
+  width: 6rem;
+  margin-bottom: 0.5rem;
+}
+
+.index-h1 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Navegación */
+.navbar-nav {
+  align-items: center;
+  gap: 1rem;
+}
+.nav-links {
+  list-style: none;
+  @extend %flexColumn;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.nav-links a {
+  color: variables.$colorBlanco;
+  text-decoration: none;
+}
+
+.nav-productos {
+  margin: 3px;
+}

@@ -1,0 +1,90 @@
+/* Main */
+/* Sección de descripción */
+.descripcion {
+  width: 100%;
+  height: auto;
+  color: variables.$colorBlanco;
+  text-align: center;
+  background-image: url("../img/descripcion-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 4rem 1rem;
+  height: 400px;
+  margin-top: 120px;
+  z-index: -2;
+}
+
+.Oscurecer-Descripcion {
+  @include mixin.OscurecerFondo(variables.$OscurecerColor);
+}
+
+.descripcion h2, .descripcion h5 {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 1rem;
+  padding: 2rem;
+}
+
+/* Productos del Index*/
+.productos h2 {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+}
+
+/*Estilos para el grid de producto*/
+.grid-productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  background-color: variables.$backgroundColorGrid
+}
+
+.card {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+}
+
+.card-img-top{
+   @extend %cardAltoAncho;
+}
+
+.producto img {
+   @extend %cardAltoAncho;
+}
+
+/* Precio */
+.precio-oferta {
+  color: green;
+  font-weight: 600;
+}
+.precio-oferta span {
+  color: black;
+  text-decoration: line-through;
+}
+
+/* Botón */
+.button {
+  background-color: #28a745;
+  border: none;
+  color: variables.$colorBlanco;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #218838;
+}

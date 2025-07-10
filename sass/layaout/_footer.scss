@@ -1,0 +1,32 @@
+/* Footer */
+.footer {
+  background-color: variables.$backgroundColor;
+  color: variables.$colorBlanco;
+  padding: 2rem 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-info p {
+  margin: 0.3rem 0;
+  font-size: 0.9rem;
+}
+
+.footer-social {
+  margin-top: 1rem;
+}
+
+.footer-social a {
+  margin: 0 0.5rem;
+  display: inline-block;
+}
+
+.footer-social img {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.3s ease;
+}
+
+.footer-social img:hover {
+  transform: scale(1.2);
+}

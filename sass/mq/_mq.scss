@@ -1,0 +1,51 @@
+/* 📱 MEDIA QUERIES - Escalando hacia arriba */
+
+/* Escritorio */
+@media (min-width: 1024px) {
+  .index-h1 {
+    font-size: 2rem;
+  }
+
+  .descripcion {
+    margin-top: 95px;
+  }
+    
+  .grid-productos {
+    margin: 0 auto;
+  }
+
+  .descripcion h2 {
+    font-size: 2.5rem;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    margin: 0 auto;
+  }
+
+  .footer-info {
+    flex: 1;
+  }
+
+  .footer-social {
+    flex: 1;
+    text-align: right;
+  }
+
+  /* media queries para la pagina de productos.html */
+  .categoria-productos {
+    max-width: 900px;
+  }
+
+  .carousel-item img {
+    height: 450px;
+  }
+
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    padding: 1.5rem; /* botones más grandes en desktop */
+  }
+}
