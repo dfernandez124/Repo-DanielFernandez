@@ -9,7 +9,8 @@
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1.5rem;
   padding: 2rem 1rem;
-  background-color: variables.$backgroundColorGrid
+  background-color: variables.$backgroundColorGrid;
+  justify-items: center;
 }
 .escudoLiga{
   width:2rem !important;
