@@ -26,10 +26,18 @@
   padding: 2rem;
 }
 
+.banner_oferta{
+  padding: 1rem;
+  margin-left: .5rem;
+}
+.banner_oferta img{
+  width: 100%;
+}
+
 /* Productos del Index*/
 .productos h2 {
   text-align: center;
-  padding: 2rem 1rem 1rem;
+  padding: 2rem;
 }
 
 /*Estilos para el grid de producto*/
@@ -87,4 +95,12 @@
 
 .button:hover {
   background-color: #218838;
+}
+
+.categoria-productos {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  max-width: 600px; 
+  margin: 2rem auto;
 }

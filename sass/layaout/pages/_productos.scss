@@ -1,47 +1,23 @@
 /* Página Productos */
 
-.main-productos {
-  padding: 140px 1rem 2rem;
-  max-width: 1200px;
-  margin: 0 auto; /* 👈 Centra horizontalmente */
-  text-align: center; /* 👈 Centra el texto y contenido inline-block */
-  @extend %flexColumn;
+.main-productos{
+  margin-top: 160px;
+  margin-bottom: 8rem;
+}
+.grid-productos-general {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+  background-color: variables.$backgroundColorGrid
+}
+.escudoLiga{
+  width:2rem !important;
 }
 
-/* Carruseles de categorías */
-.categoria-productos {
-  margin: 0 auto;
-  text-align: center;
-  width: 100%;
-  max-width: 600px; /* O lo que quieras según el diseño */
-  margin: 2rem auto;
+.productos a{
+  text-decoration: none;
 }
-
-.carousel {
-  width: 100%;
-  margin-top: 1rem;
+.card-body{
+  padding: 0 !important;
 }
-
-.carousel-item img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  object-position: center;
-  border-radius: 8px;
-}
-
-/* Botones prev/next del carousel */
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  background-color: black;
-  border-radius: 50%;
-  padding: 1rem;
-  opacity: 0.8;
-}
-
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover {
-  opacity: 1;
-}
-
-
