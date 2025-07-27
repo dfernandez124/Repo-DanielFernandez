@@ -19,6 +19,9 @@
 .productos a{
   text-decoration: none;
 }
+.card img{
+  object-fit: cover;
+}
 .card-body{
   padding: 0 !important;
 }

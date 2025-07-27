@@ -86,10 +86,12 @@
 .banner_oferta {
   padding: 1rem;
   margin-left: 0.5rem;
+  text-align: center;
 }
 
 .banner_oferta img {
   width: 100%;
+  max-width: 1300px;
 }
 
 /* Productos del Index*/
@@ -329,6 +331,10 @@
 
 .productos a {
   text-decoration: none;
+}
+
+.card img {
+  object-fit: cover;
 }
 
 .card-body {
